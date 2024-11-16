@@ -3,6 +3,7 @@ import java.util.Scanner;
  
 public class bee1067 {
  
+    @SuppressWarnings("resource")
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
