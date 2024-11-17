@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class bee1144 {
 
+    @SuppressWarnings({"resource", "ConvertToTryWithResources"})
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
@@ -16,6 +17,6 @@ public class bee1144 {
             System.out.println(i + " " + ((i * i) + 1) + " " + ((i * i * i) + 1));
         }
 
-
+        sc.close();
     }
 }
