@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class bee1013 {
+public class bee1006 {
  
     @SuppressWarnings("resource")
     public static void main(String[] args) throws IOException {
