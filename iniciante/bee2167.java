@@ -29,7 +29,6 @@ public class bee2167 {
                 pos = i + 1;
                 break;
             }
-            
         }
         
         System.out.println(pos);
