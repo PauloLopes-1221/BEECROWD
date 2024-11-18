@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -18,7 +17,7 @@ public class bee1046 {
 				System.out.printf("O JOGO DUROU %d HORA(S)\n", duration);
 			}
 			else if(initialHour == finalHour){
-			    System.out.println("O JOGO DUROU 24 HORA(S)");
+				System.out.println("O JOGO DUROU 24 HORA(S)");
 			}
 			else {
 				int duration = initialHour - finalHour;
