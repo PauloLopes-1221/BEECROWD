@@ -33,6 +33,7 @@ public class bee1042 {
         }
 
         sc.close();
+        
     }
 
 }
