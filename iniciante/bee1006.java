@@ -1,14 +1,15 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
 public class bee1006 {
- 
+
     @SuppressWarnings("resource")
     public static void main(String[] args) throws IOException {
-        
+
         Scanner sc = new Scanner(System.in);
 
-        double a, b ,c;
+        double a, b, c;
 
         a = sc.nextDouble();
         b = sc.nextDouble();
@@ -18,5 +19,5 @@ public class bee1006 {
 
         System.out.printf("MEDIA = %.1f\n", m);
     }
- 
+
 }

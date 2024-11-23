@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -13,16 +14,14 @@ public class bee1177 {
 
         t = sc.nextInt();
 
-        for(i = 0; i < vect.length; i++){
-            
+        for (i = 0; i < vect.length; i++) {
+
             System.out.printf("N[%d] = %d\n", i, x);
             x++;
-            if(x == t){
+            if (x == t) {
                 x = 0;
             }
         }
-
-
 
         sc.close();
     }

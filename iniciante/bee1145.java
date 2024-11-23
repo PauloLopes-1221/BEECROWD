@@ -2,20 +2,24 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class bee1070 {
+public class bee1145 {
 
     public static void main(String[] args) throws IOException {
 
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
-        int x, i;
+        int x, y, i;
 
         x = sc.nextInt();
+        y = sc.nextInt();
 
-        for (i = x; i < x + 12; i++) {
-            if (i % 2 != 0) {
-                System.out.println(i);
+        for (i = 1; i <= y; i++) {
+            System.out.print(i);
+            if (i % x == 0) {
+                System.out.println();
+            } else {
+                System.out.print(" ");
             }
         }
 

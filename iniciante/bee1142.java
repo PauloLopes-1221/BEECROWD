@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -10,8 +11,8 @@ public class bee1142 {
 
             n = sc.nextInt();
 
-            for(i = 1; i <= n * 4; i++){
-                if(i % 4 == 0){
+            for (i = 1; i <= n * 4; i++) {
+                if (i % 4 == 0) {
                     System.out.print("PUM\n");
                     continue;
                 }

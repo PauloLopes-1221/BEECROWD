@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -11,9 +12,9 @@ public class bee1060 {
         double n;
         int i, soma = 0;
 
-        for(i = 0; i < 6; i++){
+        for (i = 0; i < 6; i++) {
             n = sc.nextDouble();
-            if(n > 0){
+            if (n > 0) {
                 soma++;
             }
         }

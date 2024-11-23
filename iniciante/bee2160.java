@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -8,10 +9,9 @@ public class bee2160 {
         try (Scanner sc = new Scanner(System.in)) {
             String nome = sc.nextLine();
 
-            if(nome.length() > 80){
+            if (nome.length() > 80) {
                 System.out.println("NO");
-            }
-            else{
+            } else {
                 System.out.println("YES");
             }
         }

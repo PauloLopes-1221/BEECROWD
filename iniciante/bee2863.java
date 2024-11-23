@@ -9,14 +9,14 @@ public class bee2863 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String cont;
 
-        while ((cont = br.readLine()) != null) { 
+        while ((cont = br.readLine()) != null) {
 
-            int t = Integer.parseInt(cont); 
-            
-            double menorTempo = Double.MAX_VALUE; 
+            int t = Integer.parseInt(cont);
+
+            double menorTempo = Double.MAX_VALUE;
 
             for (int i = 0; i < t; i++) {
-                double tempo = Double.parseDouble(br.readLine()); 
+                double tempo = Double.parseDouble(br.readLine());
                 if (tempo < menorTempo) {
                     menorTempo = tempo;
                 }

@@ -1,8 +1,9 @@
+
 import java.io.IOException;
 import java.util.Scanner;
- 
+
 public class bee1009 {
- 
+
     @SuppressWarnings({"unused", "ConvertToTryWithResources"})
     public static void main(String[] args) throws IOException {
 
@@ -18,7 +19,6 @@ public class bee1009 {
         salarioFinal = salarioFixo + (vendas * 0.15);
 
         System.out.printf("TOTAL = R$ %.2f\n", salarioFinal);
-
 
         sc.close();
     }

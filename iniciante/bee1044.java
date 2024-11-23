@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -13,10 +14,9 @@ public class bee1044 {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        if(a % b == 0 || b % a == 0){
+        if (a % b == 0 || b % a == 0) {
             System.out.println("Sao Multiplos");
-        }
-        else{
+        } else {
             System.out.println("Nao sao Multiplos");
         }
 
@@ -24,4 +24,3 @@ public class bee1044 {
 
     }
 }
-

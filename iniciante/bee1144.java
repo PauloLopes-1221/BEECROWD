@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -12,7 +13,7 @@ public class bee1144 {
 
         n = sc.nextInt();
 
-        for(i = 1; i <= n; i++){
+        for (i = 1; i <= n; i++) {
             System.out.println(i + " " + (i * i) + " " + (i * i * i));
             System.out.println(i + " " + ((i * i) + 1) + " " + ((i * i * i) + 1));
         }

@@ -13,13 +13,13 @@ public class bee2006 {
 
         tipoCha = sc.nextInt();
 
-        for(i = 0; i < 5; i++){
+        for (i = 0; i < 5; i++) {
             comp = sc.nextInt();
-            if(comp == tipoCha){
+            if (comp == tipoCha) {
                 acertos++;
             }
         }
-        
+
         System.out.println(acertos);
 
         sc.close();
