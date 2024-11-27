@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class bee1165 {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
